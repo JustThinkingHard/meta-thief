@@ -5,6 +5,6 @@ inherit core-image
 
 IMAGE_FEATURES:append = " package-management"
 
-IMAGE_INSTALL:append = " networkmanager gnupg ntp ca-certificates coreutils git perl go"
+IMAGE_INSTALL:append = " networkmanager gnupg ntp ca-certificates coreutils git perl go python3-pip curl aircrack-ng" 
 
-IMAGE_ROOTFS_EXTRA_SPACE = "10485760"
+IMAGE_ROOTFS_EXTRA_SPACE = "5485760"
